@@ -1,0 +1,56 @@
+/* --  link buttons  --*/
+
+.btn {
+    display:inline-block;
+    text-decoration: none;
+}
+
+/* font classes */
+.h1-size {font-size: 38px;}
+.h2-size {font-size: 20px;}
+.h3-size {font-size: 15px;}
+.helper-font {font-size: 13px;}
+
+.dn {
+    display: none;
+}
+
+input {
+    border: none;
+    /* border-bottom: 1px solid #C2CED5; */
+    padding: 10px 0;
+    font-size: 14px;
+    width: 100%;
+    background: transparent;
+}
+input:focus + .active-highlight {
+    width: 100%;
+    display: inline-block;
+}
+input:focus ~ label {
+    color: #C2CED5;
+}
+input::placeholder {
+    color: #C2CED5;
+    font-size: 14px;
+}
+button {
+    border: transparent;
+    font-size: 16px;
+    transition: all .3s ease-in-out;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+}
+button:hover {
+    background: #63c6ff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .4);
+    color: #fefefe;
+}
+.relative {position: relative;}
+
+.fracture {
+    border: 1px solid #000;
+}
+
+.dn {
+    display: none;
+}
