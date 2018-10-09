@@ -1,0 +1,9 @@
+google analytics integration
+google search console
+meta description
+favicon
+contact form script
+responsiveness
+blog setup
+privacy policy
+Term of use
