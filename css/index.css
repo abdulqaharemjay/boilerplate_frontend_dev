@@ -1,0 +1,32 @@
+header {
+    height: 100vh;
+    background: rgb(50, 51, 149);
+    background: linear-gradient(283deg, rgba(50, 51, 149, 1) 0%, rgba(39, 40, 112, 1) 100%);
+}
+
+.header {
+    padding: 10px 0;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: rgb(184, 184, 255);
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 30px;
+}
+
+.active {
+  font-weight: 400;
+  color: white;
+}
+
+
+/* hero section of the header styles */
+.hero .row {
+  height: 90vh;
+}
